@@ -1,0 +1,602 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2916AC3B261F97D400479819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916AC3A261F97D400479819 /* AppDelegate.swift */; };
+		2916AC3D261F97D400479819 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916AC3C261F97D400479819 /* SceneDelegate.swift */; };
+		2916AC3F261F97D400479819 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916AC3E261F97D400479819 /* ViewController.swift */; };
+		2916AC42261F97D400479819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2916AC40261F97D400479819 /* Main.storyboard */; };
+		2916AC44261F97D700479819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2916AC43261F97D700479819 /* Assets.xcassets */; };
+		2916AC47261F97D700479819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2916AC45261F97D700479819 /* LaunchScreen.storyboard */; };
+		2916AC52261F97D700479819 /* Quis_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916AC51261F97D700479819 /* Quis_AppTests.swift */; };
+		2916AC5D261F97D700479819 /* Quis_AppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2916AC5C261F97D700479819 /* Quis_AppUITests.swift */; };
+		29C3A60E262046CF00C10D73 /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29C3A60D262046CF00C10D73 /* Question.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2916AC4E261F97D700479819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2916AC2F261F97D400479819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2916AC36261F97D400479819;
+			remoteInfo = "Quis App";
+		};
+		2916AC59261F97D700479819 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2916AC2F261F97D400479819 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2916AC36261F97D400479819;
+			remoteInfo = "Quis App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2916AC37261F97D400479819 /* Quis App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quis App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2916AC3A261F97D400479819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2916AC3C261F97D400479819 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		2916AC3E261F97D400479819 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2916AC41261F97D400479819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2916AC43261F97D700479819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2916AC46261F97D700479819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2916AC48261F97D700479819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2916AC4D261F97D700479819 /* Quis AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quis AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2916AC51261F97D700479819 /* Quis_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quis_AppTests.swift; sourceTree = "<group>"; };
+		2916AC53261F97D700479819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2916AC58261F97D700479819 /* Quis AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quis AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2916AC5C261F97D700479819 /* Quis_AppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quis_AppUITests.swift; sourceTree = "<group>"; };
+		2916AC5E261F97D700479819 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29C3A60D262046CF00C10D73 /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2916AC34261F97D400479819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2916AC4A261F97D700479819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2916AC55261F97D700479819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2916AC2E261F97D400479819 = {
+			isa = PBXGroup;
+			children = (
+				2916AC39261F97D400479819 /* Quis App */,
+				2916AC50261F97D700479819 /* Quis AppTests */,
+				2916AC5B261F97D700479819 /* Quis AppUITests */,
+				2916AC38261F97D400479819 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2916AC38261F97D400479819 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2916AC37261F97D400479819 /* Quis App.app */,
+				2916AC4D261F97D700479819 /* Quis AppTests.xctest */,
+				2916AC58261F97D700479819 /* Quis AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2916AC39261F97D400479819 /* Quis App */ = {
+			isa = PBXGroup;
+			children = (
+				2916AC3A261F97D400479819 /* AppDelegate.swift */,
+				2916AC3C261F97D400479819 /* SceneDelegate.swift */,
+				2916AC3E261F97D400479819 /* ViewController.swift */,
+				29C3A60D262046CF00C10D73 /* Question.swift */,
+				2916AC40261F97D400479819 /* Main.storyboard */,
+				2916AC43261F97D700479819 /* Assets.xcassets */,
+				2916AC45261F97D700479819 /* LaunchScreen.storyboard */,
+				2916AC48261F97D700479819 /* Info.plist */,
+			);
+			path = "Quis App";
+			sourceTree = "<group>";
+		};
+		2916AC50261F97D700479819 /* Quis AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				2916AC51261F97D700479819 /* Quis_AppTests.swift */,
+				2916AC53261F97D700479819 /* Info.plist */,
+			);
+			path = "Quis AppTests";
+			sourceTree = "<group>";
+		};
+		2916AC5B261F97D700479819 /* Quis AppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2916AC5C261F97D700479819 /* Quis_AppUITests.swift */,
+				2916AC5E261F97D700479819 /* Info.plist */,
+			);
+			path = "Quis AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2916AC36261F97D400479819 /* Quis App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2916AC61261F97D700479819 /* Build configuration list for PBXNativeTarget "Quis App" */;
+			buildPhases = (
+				2916AC33261F97D400479819 /* Sources */,
+				2916AC34261F97D400479819 /* Frameworks */,
+				2916AC35261F97D400479819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quis App";
+			productName = "Quis App";
+			productReference = 2916AC37261F97D400479819 /* Quis App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2916AC4C261F97D700479819 /* Quis AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2916AC64261F97D700479819 /* Build configuration list for PBXNativeTarget "Quis AppTests" */;
+			buildPhases = (
+				2916AC49261F97D700479819 /* Sources */,
+				2916AC4A261F97D700479819 /* Frameworks */,
+				2916AC4B261F97D700479819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2916AC4F261F97D700479819 /* PBXTargetDependency */,
+			);
+			name = "Quis AppTests";
+			productName = "Quis AppTests";
+			productReference = 2916AC4D261F97D700479819 /* Quis AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2916AC57261F97D700479819 /* Quis AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2916AC67261F97D700479819 /* Build configuration list for PBXNativeTarget "Quis AppUITests" */;
+			buildPhases = (
+				2916AC54261F97D700479819 /* Sources */,
+				2916AC55261F97D700479819 /* Frameworks */,
+				2916AC56261F97D700479819 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2916AC5A261F97D700479819 /* PBXTargetDependency */,
+			);
+			name = "Quis AppUITests";
+			productName = "Quis AppUITests";
+			productReference = 2916AC58261F97D700479819 /* Quis AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2916AC2F261F97D400479819 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2916AC36261F97D400479819 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					2916AC4C261F97D700479819 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2916AC36261F97D400479819;
+					};
+					2916AC57261F97D700479819 = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 2916AC36261F97D400479819;
+					};
+				};
+			};
+			buildConfigurationList = 2916AC32261F97D400479819 /* Build configuration list for PBXProject "Quis App" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2916AC2E261F97D400479819;
+			productRefGroup = 2916AC38261F97D400479819 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2916AC36261F97D400479819 /* Quis App */,
+				2916AC4C261F97D700479819 /* Quis AppTests */,
+				2916AC57261F97D700479819 /* Quis AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2916AC35261F97D400479819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2916AC47261F97D700479819 /* LaunchScreen.storyboard in Resources */,
+				2916AC44261F97D700479819 /* Assets.xcassets in Resources */,
+				2916AC42261F97D400479819 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2916AC4B261F97D700479819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2916AC56261F97D700479819 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2916AC33261F97D400479819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2916AC3F261F97D400479819 /* ViewController.swift in Sources */,
+				29C3A60E262046CF00C10D73 /* Question.swift in Sources */,
+				2916AC3B261F97D400479819 /* AppDelegate.swift in Sources */,
+				2916AC3D261F97D400479819 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2916AC49261F97D700479819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2916AC52261F97D700479819 /* Quis_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2916AC54261F97D700479819 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2916AC5D261F97D700479819 /* Quis_AppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2916AC4F261F97D700479819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2916AC36261F97D400479819 /* Quis App */;
+			targetProxy = 2916AC4E261F97D700479819 /* PBXContainerItemProxy */;
+		};
+		2916AC5A261F97D700479819 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2916AC36261F97D400479819 /* Quis App */;
+			targetProxy = 2916AC59261F97D700479819 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2916AC40261F97D400479819 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2916AC41261F97D400479819 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2916AC45261F97D700479819 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2916AC46261F97D700479819 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2916AC5F261F97D700479819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2916AC60261F97D700479819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2916AC62261F97D700479819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y535VH7J53;
+				INFOPLIST_FILE = "Quis App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nils.Quis-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2916AC63261F97D700479819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y535VH7J53;
+				INFOPLIST_FILE = "Quis App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nils.Quis-App";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2916AC65261F97D700479819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y535VH7J53;
+				INFOPLIST_FILE = "Quis AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nils.Quis-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quis App.app/Quis App";
+			};
+			name = Debug;
+		};
+		2916AC66261F97D700479819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y535VH7J53;
+				INFOPLIST_FILE = "Quis AppTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nils.Quis-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Quis App.app/Quis App";
+			};
+			name = Release;
+		};
+		2916AC68261F97D700479819 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y535VH7J53;
+				INFOPLIST_FILE = "Quis AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nils.Quis-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quis App";
+			};
+			name = Debug;
+		};
+		2916AC69261F97D700479819 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y535VH7J53;
+				INFOPLIST_FILE = "Quis AppUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "de.nils.Quis-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Quis App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2916AC32261F97D400479819 /* Build configuration list for PBXProject "Quis App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2916AC5F261F97D700479819 /* Debug */,
+				2916AC60261F97D700479819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2916AC61261F97D700479819 /* Build configuration list for PBXNativeTarget "Quis App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2916AC62261F97D700479819 /* Debug */,
+				2916AC63261F97D700479819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2916AC64261F97D700479819 /* Build configuration list for PBXNativeTarget "Quis AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2916AC65261F97D700479819 /* Debug */,
+				2916AC66261F97D700479819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2916AC67261F97D700479819 /* Build configuration list for PBXNativeTarget "Quis AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2916AC68261F97D700479819 /* Debug */,
+				2916AC69261F97D700479819 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2916AC2F261F97D400479819 /* Project object */;
+}
